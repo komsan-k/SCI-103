@@ -1,5 +1,5 @@
 # LAB02: Vector Modelling  
-**Course:** SCI-103 Physics for Engineers  
+**Course:** SCI-103 Physics I  
 **Academic Year:** 1/2025  
 **Instructor:** K. Kanjanasit  
 
