@@ -111,7 +111,12 @@ Modify initial conditions:
 ball.pos = vector(0,2,0)
 ball.velocity = vector(0,15,0)  # upward toss
 ```
+**Checkpoint 2**
+1. What is the analytic solution for y(t) in this case?  
+   y(t) = y0 + v0*t - (1/2) g t^2  
+2. Plot the analytic curve and compare it to the simulation.
 
+---
 ## Submission
 - Submit your completed program with link.  
 - Include graphs of position and velocity.  
