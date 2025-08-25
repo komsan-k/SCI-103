@@ -9,41 +9,30 @@ You will begin by modeling a perfectly elastic ball in free fall (no air resista
 ## Preliminaries
 We will simulate the vertical motion of a ball. The theoretical background is Newton’s Second Law:
 
-\[
-\frac{dp_y}{dt} = (F_{\text{net}})_y
-\]
+![equation](https://latex.codecogs.com/png.latex?\frac{dp_y}{dt}=(F_{\text{net}})_y)
 
-For constant mass \(m\), momentum simplifies to \(p = mv\):
+For constant mass *m*, momentum simplifies to *p = mv*:
 
-\[
-\frac{dv_y}{dt} = \frac{1}{m}(F_{\text{net}})_y
-\]
+![equation](https://latex.codecogs.com/png.latex?\frac{dv_y}{dt}=\frac{1}{m}(F_{\text{net}})_y)
 
-For small time steps \(\Delta t\):
+For small time steps Δt:
 
-\[
-\Delta v_y \approx \frac{1}{m}(F_{\text{net}})_y \Delta t
-\]
+![equation](https://latex.codecogs.com/png.latex?\Delta%20v_y\approx\frac{1}{m}(F_{\text{net}})_y\Delta%20t)
 
 so that
 
-\[
-v_{2y} \approx v_{1y} + \frac{1}{m}(F_{\text{net}})_y \Delta t
-\]
+![equation](https://latex.codecogs.com/png.latex?v_{2y}\approx%20v_{1y}+\frac{1}{m}(F_{\text{net}})_y\Delta%20t)
 
 In free fall without air resistance:
 
-\[
-(F_{\text{net}})_y = -mg \quad \Rightarrow \quad v_{2y} \approx v_{1y} - g\Delta t
-\]
+![equation](https://latex.codecogs.com/png.latex?(F_{\text{net}})_y=-mg\quad\Rightarrow\quad%20v_{2y}\approx%20v_{1y}-g\Delta%20t)
 
 Position update:
 
-\[
-y_2 \approx y_1 + v_y \Delta t
-\]
+![equation](https://latex.codecogs.com/png.latex?y_2\approx%20y_1+v_y\Delta%20t)
 
 ---
+
 
 ## Example Calculation
 Ball dropped from rest at **y = 4.0 m**, using \(\Delta t = 0.1s\):
