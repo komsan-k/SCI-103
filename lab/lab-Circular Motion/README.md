@@ -1,10 +1,6 @@
-# Uniform Circular Motion with VPython
-
-*A guided manuscript for simulating and visualizing circular motion in 3D using VPython.*
+# LAB 04: Uniform Circular Motion with VPython
 
 ---
-
-## 🧠 Abstract
 
 This manuscript presents a simulation of uniform circular motion (UCM) using VPython. A point mass attached to a virtual string moves with constant speed along a circular path. The simulation visualizes the trajectory in 3D and optionally plots radial acceleration.
 
@@ -130,12 +126,11 @@ while t < 20:
 - ✅ VPython script file (.py or .vpy)
 - ✅ Screenshots of simulation and vector arrows
 - ✅ Notes on theoretical verification (velocity, acceleration)
-- ✅ Optional: Graphs of angular displacement or acceleration over time
+- ✅ Graphs of angular displacement or acceleration over time
 
 ---
 
 ## 🔗 References
 
 - VPython Docs: [https://vpython.org](https://vpython.org)
-- Classical Mechanics Textbooks (e.g., Halliday & Resnick)
-- Khan Academy: [Centripetal Force & Circular Motion](https://www.khanacademy.org)
+
