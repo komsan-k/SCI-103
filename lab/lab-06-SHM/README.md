@@ -1,4 +1,4 @@
-# Simple Harmonic Motion (SHM) using VPython
+# LAB 07: Simple Harmonic Motion (SHM) using VPython
 
 This manuscript develops a simulation of one-dimensional simple harmonic motion (SHM) using VPython. A mass-spring system is modeled numerically via the Euler–Cromer method. Displacement, velocity, and energy are plotted versus time, and results are compared with analytic solutions.
 
