@@ -138,14 +138,6 @@ while t < 10:
 
 ---
 
-## 🧪 Extensions
-
-- Add damping: `F_d = -b * v`, observe amplitude decay and exponential envelope.
-- Add driving force: `F = F₀ * cos(Ωt)`; observe resonance near `Ω = ω`.
-- Vary `Δt` to study numerical stability and convergence.
-
----
-
 ## 📥 Submission Checklist
 
 - ✅ VPython script and screenshots of graphs.
@@ -157,4 +149,4 @@ while t < 10:
 ## 🔗 References
 
 - VPython documentation: [https://vpython.org/](https://vpython.org/)
-- Introductory mechanics textbooks on oscillations.
+
