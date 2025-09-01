@@ -55,34 +55,8 @@ x_{{t+1}} = x_t + v_{{t+1}} \cdot dt
 $$
 
 The simulation visualizes these quantities using real-time graphing.
+
 ---
-
-## 📚 Background & Theory
-
-A mass-spring system obeys Hooke’s Law:
-
-\[
-F = -k(x - x_{eq})
-\]
-
-where:
-- \( F \) is the restoring force,
-- \( k \) is the spring constant,
-- \( x \) is the current position,
-- \( x_{eq} \) is the equilibrium position.
-
-Using Newton’s Second Law \( F = ma \), we obtain the acceleration:
-
-\[
-a = -\frac{k}{m}(x - x_{eq})
-\]
-
-This simulation numerically solves the second-order differential equation using a discrete time step `dt`. The equations used are:
-
-- \( v_{t+1} = v_t + a_t \cdot dt \)
-- \( x_{t+1} = x_t + v_{t+1} \cdot dt \)
-
-The simulation visualizes these quantities using real-time graphing.
 
 ## 💻 Code Overview
 
