@@ -27,7 +27,7 @@ $$
 
 ### Angular Velocity
 
-Let \( \omega \) be the angular velocity (rad/s):
+Let \( \Omega \) be the angular velocity (rad/s):
 
 $$
 v = r\omega
