@@ -1,4 +1,4 @@
-# LAB 04: Uniform Circular Motion with VPython
+# LAB 05: Uniform Circular Motion with VPython
 
 This manuscript presents a simulation of uniform circular motion (UCM) using VPython. A point mass attached to a virtual string moves with constant speed along a circular path. The simulation visualizes the trajectory in 3D and optionally plots radial acceleration.
 
