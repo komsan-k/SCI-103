@@ -1,4 +1,4 @@
-# VPython Simulation: 1D Spring-Mass System with Real-Time Graphs
+# LAB 06: VPython Simulation: 1D Spring-Mass System with Real-Time Graphs
 
 This project demonstrates a 1D spring-mass system using VPython and visualizes position, velocity, and acceleration using scatter plots.
 
