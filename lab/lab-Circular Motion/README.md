@@ -71,9 +71,9 @@ t = 0                # Time
 # ---------- Objects ----------
 center = vector(0, 0, 0)
 track = ring(pos=center, axis=vector(0,0,1), radius=radius, thickness=0.05, color=color.gray(0.7))
-mass = sphere(pos=vector(radius, 0, 0), radius=0.3, color=color.red, make_trail=True)
-velocity_arrow = arrow(pos=mass.pos, axis=vector(0,0,0), color=color.blue)
-acceleration_arrow = arrow(pos=mass.pos, axis=vector(0,0,0), color=color.green)
+mass = sphere(pos=vector(radius, 0, 0), radius=1.0, color=color.red, make_trail=True)
+velocity_arrow = arrow(pos=mass.pos, axis=vector(0,0,0), color=color.blue, shaftwidth=0.2)
+acceleration_arrow = arrow(pos=mass.pos, axis=vector(0,0,0), color=color.green, shaftwidth=0.2)
 
 # ---------- Simulation Loop ----------
 while t < 20:
