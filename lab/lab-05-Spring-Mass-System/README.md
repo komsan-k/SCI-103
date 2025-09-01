@@ -123,7 +123,7 @@ while t < 20:
 
 ---
 
-# Submission Checklist: Spring-Mass System Simulation (VPython)
+## Submission Checklist: Spring-Mass System Simulation (VPython)
 
 Ensure all components listed below are included in your submission for the Spring-Mass (Simple Harmonic Motion) simulation lab using VPython.
 
@@ -132,7 +132,7 @@ Ensure all components listed below are included in your submission for the Sprin
 ## 🔧 Code & Implementation
 
 - ✅ **VPython Script File** (`.py`) containing:
-  - Spring-mass simulation using Euler–Cromer method
+  - Spring-mass simulation 
   - Animated motion of the mass and spring
   - Real-time plotting using `gcurve` or `gdots`
 
@@ -165,7 +165,7 @@ Ensure all components listed below are included in your submission for the Sprin
 
 ## 📄 Documentation & Explanation
 
-- ✅ **Lab Report or Documentation** (PDF or Markdown):
+- ✅ **Lab Report or Documentation** (PDF):
   - Clear description of simulation objective
   - Explanation of numerical method and implementation
   - Interpretation of results and verification outcomes
@@ -173,24 +173,9 @@ Ensure all components listed below are included in your submission for the Sprin
 
 ---
 
-## 🧪 Optional Extensions (Bonus)
+## 🧪 Checkpiont
 
-- ⬜ Include simulation with **damping**: $F_d = -bv$
-- ⬜ Add a **driving force**: $F = F_0 \cos(\Omega t)$
 - ⬜ Plot **acceleration vs time**
-- ⬜ Compare with the **explicit Euler method** and discuss stability
-
----
-
-## 📬 Submission Format
-
-- Compressed folder or zip file:
-  - `spring_mass_simulation/`
-    - `main.py` or `main.vpy`
-    - `screenshots/`
-    - `report.md` or `report.pdf`
-    - `graphs/`
-
 ---
 
 ## 🔗 Reference
