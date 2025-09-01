@@ -122,3 +122,78 @@ while t < 20:
   - Acceleration (red)
 
 ---
+
+# Submission Checklist: Spring-Mass System Simulation (VPython)
+
+Ensure all components listed below are included in your submission for the Spring-Mass (Simple Harmonic Motion) simulation lab using VPython.
+
+---
+
+## 🔧 Code & Implementation
+
+- ✅ **VPython Script File** (`.py` or `.vpy`) containing:
+  - Spring-mass simulation using Euler–Cromer method
+  - Animated motion of the mass and spring
+  - Real-time plotting using `gcurve` or `gdots`
+
+---
+
+## 📸 Visual Outputs
+
+- ✅ **Screenshots or Video Recording** showing:
+  - The animated spring-mass system in motion
+  - Graph of Displacement vs Time and Velocity vs Time
+  - Energy plot (Kinetic, Potential, and Total Energy vs Time)
+
+---
+
+## 📊 Numerical Verification
+
+- ✅ **Measured Oscillation Period** using the simulation
+- ✅ **Analytical Comparison**:
+  - Use the formula:  
+    $$
+    T = 2\pi \sqrt{\frac{m}{k}}
+    $$
+- ✅ **Energy Conservation Analysis**:
+  - Show constancy of total energy over time
+  - Optionally compute and report relative error:  
+    $$
+    \frac{\Delta E}{E} = \frac{E_{\text{final}} - E_{\text{initial}}}{E_{\text{initial}}}
+    $$
+
+---
+
+## 📄 Documentation & Explanation
+
+- ✅ **Lab Report or Documentation** (PDF or Markdown):
+  - Clear description of simulation objective
+  - Explanation of numerical method and implementation
+  - Interpretation of results and verification outcomes
+  - Labeled graphs and parameter descriptions
+
+---
+
+## 🧪 Optional Extensions (Bonus)
+
+- ⬜ Include simulation with **damping**: $F_d = -bv$
+- ⬜ Add a **driving force**: $F = F_0 \cos(\Omega t)$
+- ⬜ Plot **acceleration vs time**
+- ⬜ Compare with the **explicit Euler method** and discuss stability
+
+---
+
+## 📬 Submission Format
+
+- Compressed folder or zip file:
+  - `spring_mass_simulation/`
+    - `main.py` or `main.vpy`
+    - `screenshots/`
+    - `report.md` or `report.pdf`
+    - `graphs/`
+
+---
+
+## 🔗 Reference
+
+- VPython documentation: [https://vpython.org](https://vpython.org)
