@@ -1,11 +1,5 @@
 # Simple Harmonic Motion (SHM) using VPython
 
-*A Guided Manuscript for Physics & Programming Labs*
-
----
-
-## 🧠 Abstract
-
 This manuscript develops a simulation of one-dimensional simple harmonic motion (SHM) using VPython. A mass-spring system is modeled numerically via the Euler–Cromer method. Displacement, velocity, and energy are plotted versus time, and results are compared with analytic solutions.
 
 ---
@@ -18,7 +12,44 @@ This manuscript develops a simulation of one-dimensional simple harmonic motion 
 - Verify conservation of total mechanical energy in ideal SHM.
 
 ---
+## 📚 Background & Theory
 
+For a mass $m$ attached to a spring with constant $k$, the displacement $x(t)$ satisfies:
+
+$$
+m \frac{d^2x}{dt^2} + kx = 0, \quad \omega = \sqrt{\frac{k}{m}}
+$$
+
+The analytical solution is:
+
+$$
+x(t) = A \cos(\omega t) + B \sin(\omega t)
+$$
+
+The velocity is:
+
+$$
+v(t) = \frac{dx}{dt}
+$$
+
+### ⚙️ Euler–Cromer Scheme
+
+The numerical update equations using the Euler–Cromer method are:
+
+$$
+v_{n+1} = v_n + a_n \cdot \Delta t
+$$
+
+$$
+x_{n+1} = x_n + v_{n+1} \cdot \Delta t
+$$
+
+where acceleration is given by:
+
+$$
+a_n = -\frac{k}{m} x_n
+$$
+---
 ## 📚 Background & Theory
 
 For a mass `m` attached to a spring with constant `k`, the displacement `x(t)` satisfies:
