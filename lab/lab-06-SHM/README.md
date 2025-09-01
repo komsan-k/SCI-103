@@ -1,4 +1,4 @@
-# Simple Harmonic Motion (SHM) with Plotting Graphs using VPython
+# Simple Harmonic Motion (SHM) using VPython
 
 *A Guided Manuscript for Physics & Programming Labs*
 
