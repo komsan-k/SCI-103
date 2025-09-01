@@ -131,7 +131,7 @@ Ensure all components listed below are included in your submission for the Sprin
 
 ## 🔧 Code & Implementation
 
-- ✅ **VPython Script File** (`.py` or `.vpy`) containing:
+- ✅ **VPython Script File** (`.py`) containing:
   - Spring-mass simulation using Euler–Cromer method
   - Animated motion of the mass and spring
   - Real-time plotting using `gcurve` or `gdots`
@@ -148,7 +148,6 @@ Ensure all components listed below are included in your submission for the Sprin
 ---
 
 ## 📊 Numerical Verification
-
 - ✅ **Measured Oscillation Period** using the simulation
 - ✅ **Analytical Comparison**:
   - Use the formula:  
