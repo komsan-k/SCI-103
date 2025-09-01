@@ -49,6 +49,7 @@ where acceleration is given by:
 $$
 a_n = -\frac{k}{m} x_n
 $$
+
 ---
 ## 📚 Background & Theory
 
