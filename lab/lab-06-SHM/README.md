@@ -51,35 +51,6 @@ a_n = -\frac{k}{m} x_n
 $$
 
 ---
-## 📚 Background & Theory
-
-For a mass `m` attached to a spring with constant `k`, the displacement `x(t)` satisfies:
-
-```
-m * d²x/dt² + kx = 0, where ω = sqrt(k/m)
-```
-
-The analytical solution:
-
-```
-x(t) = A * cos(ωt) + B * sin(ωt)
-```
-
-The velocity is:
-
-```
-v(t) = dx/dt
-```
-
-### ⚙️ Euler–Cromer Scheme
-
-```
-v[n+1] = v[n] + a[n] * Δt
-x[n+1] = x[n] + v[n+1] * Δt
-```
-
-where acceleration `a[n] = - (k/m) * x[n]`.
-
 ---
 
 ## 💻 VPython Implementation
