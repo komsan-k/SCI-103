@@ -1,9 +1,12 @@
 # LAB 08: VPython Simulation — Traveling Wave on a String  
 
+
 ## 🎯 Objectives
 - To visualize a **traveling sinusoidal wave** on a string using VPython.  
 - To understand the mathematical form of a traveling wave:
-  \[ y(x,t) = A \sin(kx - \omega t) \]
+  \[
+  y(x,t) = A \sin \left( kx - \omega t \right)
+  \]
 - To observe how **wave speed, frequency, and wavelength** affect the motion of the string.  
 - To develop computational skills by implementing a physics concept in Python.  
 
@@ -12,16 +15,19 @@
 ## 📖 Background Theory
 
 A **traveling wave** on a string can be described as:
-\[ y(x,t) = A \sin(kx - \omega t) \]
+\[
+y(x,t) = A \sin \left( kx - \omega t \right)
+\]
 where:  
-- A = amplitude (maximum displacement),  
-- k = 2π/λ = wave number,  
-- ω = 2πf = angular frequency,  
-- λ = wavelength,  
-- f = frequency,  
-- v = ω/k = wave speed.  
 
-This equation describes a **sinusoidal disturbance** that moves without changing shape along the +x-direction. VPython allows us to **animate the displacement of points on the string** to simulate this wave.  
+- \(\mathbf{A}\) = amplitude (maximum displacement),  
+- \(\mathbf{k} = \dfrac{2\pi}{\lambda}\) = wave number,  
+- \(\boldsymbol{\omega} = 2\pi f\) = angular frequency,  
+- \(\boldsymbol{\lambda}\) = wavelength,  
+- \(\mathbf{f}\) = frequency,  
+- \(\mathbf{v} = \dfrac{\omega}{k}\) = wave speed.  
+
+This equation describes a **sinusoidal disturbance** that moves without changing shape along the \(+x\)-direction. VPython allows us to **animate the displacement of points on the string** to simulate this wave.  
 
 ---
 
