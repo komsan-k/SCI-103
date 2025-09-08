@@ -11,6 +11,7 @@ A truck is moving along a straight road. It starts from rest and accelerates uni
 4. **Using VPython, simulate the motion of the truck with a simple animation, showing the phases of acceleration, constant speed, and deceleration.**  
 
 ---
+<!--
 <details>
 ## 🧮 Analytical Results  
 
@@ -76,6 +77,7 @@ while t < T:
     t += dt
 ```
 </details>
+-->
 ---
 
 ## ✅ Expected Results  
