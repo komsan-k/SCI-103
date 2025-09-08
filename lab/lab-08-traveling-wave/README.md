@@ -54,43 +54,42 @@ This equation describes a **sinusoidal disturbance** that moves without changing
 ## 💻 VPython Code Example
 
 ```python
-from vpython import *
-import numpy as np
+from vpython import *  # provides vector, curve, sin, cos, pi, rate, color
 
-# Scene setup
-scene.title = "Traveling Wave on a String"
-scene.width = 900
-scene.height = 400
+scene.title = "Traveling Wave on a String (no NumPy)"
 scene.background = color.white
 
 # Parameters
-A = 1.0              # Amplitude (m)
-lam = 4.0            # Wavelength (m)
-f = 1.0              # Frequency (Hz)
-k = 2*np.pi/lam      # Wave number
-omega = 2*np.pi*f    # Angular frequency
-v = omega/k          # Wave speed
+A   = 1.0      # amplitude (m)
+lam = 4.0      # wavelength (m)
+f   = 1.0      # frequency (Hz)
+k   = 2*pi/lam # wave number
+omega = 2*pi*f # angular frequency
+v = omega/k    # wave speed (not used directly, shown for reference)
 
-L = 20               # Length of string (m)
-N = 200              # Number of points
-dx = L/N             # Spacing
-x_vals = np.linspace(0, L, N)
+L = 20.0       # string length (m)
+N = 200        # points
+dx = L/(N-1)
 
-# Create string
+# Build x samples as a plain list (no numpy)
+x_vals = [i*dx for i in range(N)]
+
+# Create the string
 string = curve(color=color.blue, radius=0.05)
 for x in x_vals:
     string.append(vector(x, 0, 0))
 
-t = 0
+t = 0.0
 dt = 0.02
 
-# Animation loop
 while True:
     rate(50)
     t += dt
-    for i, x in enumerate(x_vals):
-        y = A*np.sin(k*x - omega*t)
+    for i in range(N):
+        x = x_vals[i]
+        y = A * sin(k*x - omega*t)
         string.modify(i, vector(x, y, 0))
+
 ```
 
 ---
