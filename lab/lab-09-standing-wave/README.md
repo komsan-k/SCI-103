@@ -51,43 +51,41 @@ In a string of length L fixed at both ends, allowed wavelengths are:
 ## 💻 VPython Code Example
 
 ```python
-from vpython import *
-import numpy as np
+from vpython import *  # provides vector, curve, sin, cos, pi, rate, color
 
-# Scene setup
-scene.title = "Standing Wave on a String"
-scene.width = 900
-scene.height = 400
+scene.title = "Standing Wave on a String (no NumPy)"
 scene.background = color.white
 
 # Parameters
-A = 1.0        # Amplitude (m)
-L = 20.0       # Length of string (m)
-n = 2          # Mode number (harmonic)
-f = 1.0        # Frequency (Hz)
+A = 1.0      # amplitude of each traveling wave (m)
+L = 20.0     # string length (m)
+n = 2        # mode number (harmonic)
+f = 1.0      # frequency (Hz)
 
-lam = 2*L/n                # Wavelength
-k = 2*np.pi/lam            # Wave number
-omega = 2*np.pi*f          # Angular frequency
+lam = 2*L/n         # wavelength
+k = 2*pi/lam        # wave number
+omega = 2*pi*f      # angular frequency
 
-N = 200                    # Number of points
-x_vals = np.linspace(0, L, N)
+N = 200
+dx = L/(N-1)
+x_vals = [i*dx for i in range(N)]
 
-# Create string
 string = curve(color=color.blue, radius=0.05)
 for x in x_vals:
     string.append(vector(x, 0, 0))
 
-t = 0
+t = 0.0
 dt = 0.02
 
-# Animation loop
 while True:
     rate(50)
     t += dt
-    for i, x in enumerate(x_vals):
-        y = 2*A*np.sin(k*x)*np.cos(omega*t)
+    for i in range(N):
+        x = x_vals[i]
+        # y(x,t) = 2A sin(kx) cos(ωt)
+        y = 2*A * sin(k*x) * cos(omega*t)
         string.modify(i, vector(x, y, 0))
+
 ```
 
 ---
