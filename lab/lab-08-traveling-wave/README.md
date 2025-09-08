@@ -115,5 +115,5 @@ while True:
 1. What is the mathematical form of the wave you simulated?  
 2. How does the wavelength affect the appearance of the wave?  
 3. If frequency is doubled, what happens to the wave speed and wave profile?  
-4. How could you modify the simulation to represent a **standing wave**?  
-5. In real strings (like a guitar string), what physical factors determine wave speed?  
+<!-- 4. How could you modify the simulation to represent a **standing wave**? -->
+4. In real strings (like a guitar string), what physical factors determine wave speed?  
