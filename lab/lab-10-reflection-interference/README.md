@@ -52,7 +52,6 @@ Key points:
 
 ```python
 from vpython import *
-import numpy as np
 
 # Scene setup
 scene.title = "Reflection and Interference of Waves"
@@ -66,11 +65,12 @@ L = 20.0       # Length of string (m)
 f = 1.0        # Frequency (Hz)
 lam = 10.0     # Wavelength (m)
 
-k = 2*np.pi/lam       # Wave number
-omega = 2*np.pi*f     # Angular frequency
+k = 2*pi/lam        # Wave number
+omega = 2*pi*f      # Angular frequency
 
-N = 200               # Number of points
-x_vals = np.linspace(0, L, N)
+N = 200             # Number of points
+dx = L / (N-1)      # Step size
+x_vals = [i*dx for i in range(N)]
 
 # Create string
 string = curve(color=color.blue, radius=0.05)
@@ -85,10 +85,11 @@ while True:
     rate(50)
     t += dt
     for i, x in enumerate(x_vals):
-        y_incident = A*np.sin(k*x - omega*t)
-        y_reflected = -A*np.sin(k*x + omega*t)
+        y_incident = A*sin(k*x - omega*t)
+        y_reflected = -A*sin(k*x + omega*t)
         y = y_incident + y_reflected
         string.modify(i, vector(x, y, 0))
+
 ```
 
 ---
