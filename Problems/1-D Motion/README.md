@@ -14,41 +14,29 @@ A truck is moving along a straight road. It starts from rest and accelerates uni
 
 ## 🧮 Analytical Results  
 
+## 🧮 Analytical Results  
+
+```text
 - Time to accelerate:  
-  \[
-  t_\text{accel} = \frac{v}{a} = \frac{20}{2} = 10 \,\text{s}
-  \]
+  t_accel = v/a = 20/2 = 10 s
 
 - Total time of motion:  
-  \[
-  T = t_\text{accel} + t_\text{cruise} + t_\text{brake} = 10 + 20 + 5 = 35 \,\text{s}
-  \]
+  T = t_accel + t_cruise + t_brake = 10 + 20 + 5 = 35 s
 
 - Displacements:  
   - Acceleration phase:  
-    \[
-    s_1 = \tfrac{1}{2} a t^2 = 0.5 \cdot 2 \cdot 10^2 = 100 \,\text{m}
-    \]  
+    s1 = 0.5 * a * t^2 = 0.5 * 2 * 10^2 = 100 m  
   - Constant velocity:  
-    \[
-    s_2 = v \cdot t = 20 \cdot 20 = 400 \,\text{m}
-    \]  
+    s2 = v * t = 20 * 20 = 400 m  
   - Braking phase:  
-    \[
-    s_3 = \tfrac{1}{2}(v+0)\cdot t = 0.5 \cdot 20 \cdot 5 = 50 \,\text{m}
-    \]  
+    s3 = 0.5 * (v+0) * t = 0.5 * 20 * 5 = 50 m  
 
 - Total displacement:  
-  \[
-  S = s_1 + s_2 + s_3 = 100 + 400 + 50 = 550 \,\text{m}
-  \]
+  S = s1 + s2 + s3 = 100 + 400 + 50 = 550 m
 
 - Average velocity:  
-  \[
-  v_\text{avg} = \frac{S}{T} = \frac{550}{35} \approx 15.7 \,\text{m/s}
-  \]
+  v_avg = S / T = 550 / 35 ≈ 15.7 m/s
 
----
 
 ## 💻 VPython Minimal Animation Code  
 
