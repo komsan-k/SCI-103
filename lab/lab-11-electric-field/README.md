@@ -31,7 +31,7 @@ $$
 ---
 
 ## 3. Software & Setup
-- GlowScript VPython (3.2+) accessible at [https://glowscript.org](https://glowscript.org)  
+- GlowScript VPython (3.2+) accessible at [https://glowscript.org](https://glowscript.org) [https://trinket.io] (https://trinket.io)  
 - Web browser (Chrome or Firefox recommended)  
 - No installation required  
 
