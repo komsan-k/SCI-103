@@ -134,12 +134,50 @@ while True:
 Modify the code to compute and plot the **energy flow direction**:
 
 ```python
-# Add Poynting vector arrows (green)
-S_arrows = []
+# GlowScript 3.2 VPython — Part B: Poynting Vector Visualization (Complete)
+from vpython import *
+
+scene.title = "EM Wave: Poynting Vector Visualization"
+scene.width = 900
+scene.height = 520
+scene.background = color.white
+scene.forward = vec(-1,-0.5,-1.2)
+
+# ------------------------ Wave Parameters ------------------------
+c     = 3e8             # speed of light
+lam   = 2.0             # wavelength (arbitrary units)
+f     = c/lam           # frequency
+omega = 2*pi*f          # angular frequency
+k     = 2*pi/lam        # wavenumber
+E0    = 1.0             # E-field amplitude
+B0    = E0/c            # B-field amplitude so that |E| = c|B|
+# -----------------------------------------------------------------
+
+# Axes (x: red; y: blue; z: green)
+arrow(pos=vec(0,0,0), axis=vec(1,0,0), color=color.red,   shaftwidth=0.03)   # x-axis (E)
+arrow(pos=vec(0,0,0), axis=vec(0,1,0), color=color.blue,  shaftwidth=0.03)   # y-axis (B)
+arrow(pos=vec(0,0,0), axis=vec(0,0,1), color=color.green, shaftwidth=0.03)   # z-axis (propagation)
+
+# Sample points along +z
+N  = 25
+dz = 0.2
+
+# Field arrows
+E_arrows = []
+B_arrows = []
+S_arrows = []  # Poynting vector arrows (energy flow)
+
 for i in range(N):
     z = i*dz
-    S = arrow(pos=vec(0,0,z), axis=vec(0,0,0), color=color.green, shaftwidth=0.02)
-    S_arrows.append(S)
+    # Start with zero-length axes; we'll update in the loop
+    E_arrows.append(arrow(pos=vec(0,0,z), axis=vec(0,0,0), color=color.red,   shaftwidth=0.02))
+    B_arrows.append(arrow(pos=vec(0,0,z), axis=vec(0,0,0), color=color.blue,  shaftwidth=0.02))
+    S_arrows.append(arrow(pos=vec(0,0,z), axis=vec(0,0,0), color=color.green, shaftwidth=0.02))
+
+label(pos=vec(0, 0, N*dz+0.5), text="Red=E (x̂), Blue=B (ŷ), Green=S (energy flow)", box=False, color=color.black)
+
+t  = 0.0
+dt = 0.02
 
 while True:
     rate(30)
@@ -147,13 +185,22 @@ while True:
     for i in range(N):
         z = i*dz
         phase = k*z - omega*t
+
+        # Plane wave along +z with E || x, B || y (in phase)
         Ex = E0*cos(phase)
         By = B0*cos(phase)
-        E_arrows[i].axis = vec(Ex,0,0)
-        B_arrows[i].axis = vec(0,By,0)
-        # Poynting vector S = E x B / mu0
-        S_vec = cross(vec(Ex,0,0), vec(0,By,0))
-        S_arrows[i].axis = norm(S_vec)*0.5
+
+        # Update E and B arrows
+        E_arrows[i].axis = vec(Ex, 0, 0)    # E along x
+        B_arrows[i].axis = vec(0, By, 0)    # B along y
+
+        # Poynting vector S ∝ E × B (direction only for visualization)
+        S_vec = cross(vec(Ex,0,0), vec(0,By,0))  # = (0,0, Ex*By)
+        if mag(S_vec) > 1e-12:
+            S_arrows[i].axis = norm(S_vec)*0.5   # scale for visibility
+        else:
+            S_arrows[i].axis = vec(0,0,0)
+
 ```
 
 **Observation:** The green arrows (\(\mathbf{S}\)) always point along +z, indicating EM energy flow.  
