@@ -27,8 +27,8 @@ $$
 $$
 
 where:  
-
-$$ \E_0, B_0\ is amplitudes $$
+amplitudes is
+$$ \E_0, B_0\$$
 
 $$ \(k = \tfrac{2\pi}{\lambda}\) = wave number$$  
 
