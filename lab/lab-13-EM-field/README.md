@@ -27,10 +27,13 @@ $$
 $$
 
 where:  
-- $$ \(E_0, B_0\) = amplitudes $$,  
-- \(k = \tfrac{2\pi}{\lambda}\) = wave number,  
-- \(\omega = 2\pi f\) = angular frequency,  
-- \(c = \tfrac{E_0}{B_0} = \lambda f\) = speed of light.  
+$$ \(E_0, B_0\) = amplitudes $$
+
+$$ \(k = \tfrac{2\pi}{\lambda}\) = wave number$$  
+
+$$ \(\omega = 2\pi f\) = angular frequency $$,  
+
+$$ \(c = \tfrac{E_0}{B_0} = \lambda f\) = speed of light $$  
 
 **Key properties:**  
 - \(\mathbf{E}, \mathbf{B}, \hat{z}\) are mutually perpendicular.  
