@@ -27,10 +27,13 @@ $$
 $$
 
 where:  
-amplitudes is
-$$ \E_0, B_0\$$
+- amplitudes is
 
-$$ \(k = \tfrac{2\pi}{\lambda}\) = wave number$$  
+$$ \E_0, B_0\ $$
+
+= wave numbe is
+
+$$ \k = \tfrac{2\pi}{\lambda}\ $$  
 
 $$ \(\omega = 2\pi f\) = angular frequency $$,  
 
