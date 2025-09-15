@@ -1,4 +1,4 @@
-# Lab: Visualization of Electric Fields using VPython
+# Lab 11: Visualization of Electric Fields using VPython
 
 ## 1. Objectives
 - Understand the concept of electric fields due to point charges.  
@@ -14,12 +14,11 @@ The electric field **E** at a point **r** due to a point charge **q** is given b
 $$
 \mathbf{E}(\mathbf{r}) = \frac{1}{4 \pi \varepsilon_0} \, \frac{q}{|\mathbf{r} - \mathbf{r_q}|^3} \, (\mathbf{r} - \mathbf{r_q})
 $$
-
-- **Direction:** away from positive charges, toward negative charges.  
-- **Magnitude:** decreases with the square of the distance  
-  $$
+ $$
   |\mathbf{E}| \propto \frac{1}{r^2}
   $$
+- **Direction:** away from positive charges, toward negative charges.  
+- **Magnitude:** decreases with the square of the distance  
 - **Superposition principle:** the total field is the vector sum of contributions from all charges.  
 
 **Visualization tools in VPython:**  
