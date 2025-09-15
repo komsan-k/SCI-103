@@ -30,7 +30,7 @@ where:
 - amplitudes is
 
 $$ 
-\E_0, \B_0\ 
+E_0, B_0 
 $$
 
 - wave numbe is
@@ -40,11 +40,13 @@ $$
 $$  
 
 - angular frequency
+  
 $$ 
 \(\omega = 2\pi f\) 
 $$ 
 
 - speed of light
+  
 $$
 \(c = \tfrac{E_0}{B_0} = \lambda f\)
 $$  
