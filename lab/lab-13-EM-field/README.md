@@ -160,9 +160,100 @@ while True:
 
 ---
 
+
 ### Part C – Polarization Variations
-1. Change the electric field direction to \(E_y = E_0 \cos(\text{phase})\) and magnetic to \(B_x\).  
-2. Combine \(E_x\) and \(E_y\) components with phase shift to create **circular polarization**.  
+This section shows how to simulate **linear polarization along y** and **circular polarization** (right-hand and left-hand).
+
+```python
+# GlowScript 3.2 VPython — Part C: Polarization Variations
+from vpython import *
+
+scene.title = "EM Wave Polarization (Linear-Y / Circular)"
+scene.width = 900
+scene.height = 520
+scene.background = color.white
+scene.forward = vec(-1,-0.5,-1.2)
+
+# ------------------------ Parameters ------------------------
+c   = 3e8
+lam = 2.0
+f   = c/lam
+omega = 2*pi*f
+k     = 2*pi/lam
+E0    = 1.0
+
+# Choose polarization: 'linear_y', 'circular_RH', 'circular_LH'
+mode = 'linear_y'       # change to 'circular_RH' or 'circular_LH'
+# ------------------------------------------------------------
+
+# Axes (x: red; y: blue; z: green)
+arrow(pos=vec(0,0,0), axis=vec(1,0,0), color=color.red,   shaftwidth=0.03)   # x
+arrow(pos=vec(0,0,0), axis=vec(0,1,0), color=color.blue,  shaftwidth=0.03)   # y
+arrow(pos=vec(0,0,0), axis=vec(0,0,1), color=color.green, shaftwidth=0.03)   # z
+
+# Discrete sample arrows along +z
+N  = 25
+dz = 0.2
+E_arrows, B_arrows, S_arrows = [], [], []
+for i in range(N):
+    z = i*dz
+    E_arrows.append(arrow(pos=vec(0,0,z), axis=vec(0,0,0), color=color.red,   shaftwidth=0.02))
+    B_arrows.append(arrow(pos=vec(0,0,z), axis=vec(0,0,0), color=color.blue,  shaftwidth=0.02))
+    S_arrows.append(arrow(pos=vec(0,0,z), axis=vec(0,0,0), color=color.green, shaftwidth=0.02))
+
+# Helper: enforce B = (k_hat × E)/c
+def B_from_E(Ex, Ey):
+    # k_hat = ẑ = (0,0,1). k_hat × E = (-Ey, Ex, 0)
+    return (-Ey/c, Ex/c, 0.0)
+
+# Polarization modes
+def E_components(phase, mode):
+    if mode == 'linear_y':
+        Ex = 0.0
+        Ey = E0*cos(phase)
+    elif mode == 'circular_RH':
+        Ex = E0*cos(phase)
+        Ey = E0*sin(phase)
+    elif mode == 'circular_LH':
+        Ex = E0*cos(phase)
+        Ey = -E0*sin(phase)
+    else:
+        Ex = E0*cos(phase); Ey = 0.0
+    return Ex, Ey
+
+# Label
+label(pos=vec(0, 0, N*dz+0.6), text=f"Mode: {mode}\nRed=E, Blue=B, Green=S", box=False, color=color.black)
+
+t  = 0.0
+dt = 0.02
+
+while True:
+    rate(30)
+    t += dt
+    for i in range(N):
+        z = i*dz
+        phase = k*z - omega*t
+
+        Ex, Ey = E_components(phase, mode)
+        Bx, By, Bz = B_from_E(Ex, Ey)
+
+        E_arrows[i].axis = vec(Ex, Ey, 0)
+        B_arrows[i].axis = vec(Bx, By, Bz)
+
+        S_vec = cross(vec(Ex, Ey, 0), vec(Bx, By, Bz))
+        if mag(S_vec) > 1e-12:
+            S_arrows[i].axis = norm(S_vec)*0.5
+        else:
+            S_arrows[i].axis = vec(0,0,0)
+```
+
+**Observation:**  
+- Linear (y): \(\mathbf{E}\) points along y, \(\mathbf{B}\) along x.  
+- Circular RH: \(\mathbf{E}\) tip rotates clockwise (seen along +z).  
+- Circular LH: \(\mathbf{E}\) tip rotates counter-clockwise.  
+- In all cases, \(\mathbf{S}\) points along +z.  
+
+---.  
 
 ---
 
