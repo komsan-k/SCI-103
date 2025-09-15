@@ -48,7 +48,7 @@ $$
 - speed of light
   
 $$
-\c = \tfrac{E_0}{B_0} = \lambda f\
+c = \tfrac{E_0}{B_0} = \lambda f\
 $$  
 
 **Key properties:**  
