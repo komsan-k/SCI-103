@@ -17,6 +17,7 @@ $$
 
 - **Direction:** away from positive charges, toward negative charges.  
 - **Magnitude:** decreases with the square of the distance
+  
  $$
   |\mathbf{E}| \propto \frac{1}{r^2}
   $$
