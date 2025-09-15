@@ -14,16 +14,12 @@ The electric field **E** at a point **r** due to a point charge **q** is given b
 $$
 \mathbf{E}(\mathbf{r}) = \frac{1}{4 \pi \varepsilon_0} \, \frac{q}{|\mathbf{r} - \mathbf{r_q}|^3} \, (\mathbf{r} - \mathbf{r_q})
 $$
- $$
-  |\mathbf{E}| \propto \frac{1}{r^2}
-  $$
+
 - **Direction:** away from positive charges, toward negative charges.  
 - **Magnitude:** decreases with the square of the distance
-
  $$
   |\mathbf{E}| \propto \frac{1}{r^2}
   $$
-  
 - **Superposition principle:** the total field is the vector sum of contributions from all charges.  
 
 **Visualization tools in VPython:**  
