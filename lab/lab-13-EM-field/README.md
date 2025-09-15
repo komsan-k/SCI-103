@@ -29,15 +29,25 @@ $$
 where:  
 - amplitudes is
 
-$$ \E_0, B_0\ $$
+$$ 
+\E_0, \B_0\ 
+$$
 
-= wave numbe is
+- wave numbe is
 
-$$ \k = \tfrac{2\pi}{\lambda}\ $$  
+$$ 
+\k = \tfrac{2\pi}{\lambda}\ 
+$$  
 
-$$ \(\omega = 2\pi f\) = angular frequency $$,  
+- angular frequency
+$$ 
+\(\omega = 2\pi f\) 
+$$ 
 
-$$ \(c = \tfrac{E_0}{B_0} = \lambda f\) = speed of light $$  
+- speed of light
+$$
+\(c = \tfrac{E_0}{B_0} = \lambda f\)
+$$  
 
 **Key properties:**  
 - \(\mathbf{E}, \mathbf{B}, \hat{z}\) are mutually perpendicular.  
