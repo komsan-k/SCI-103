@@ -36,19 +36,19 @@ $$
 - wave numbe is
 
 $$ 
-\k = \tfrac{2\pi}{\lambda}\ 
+k = \tfrac{2\pi}{\lambda}\ 
 $$  
 
 - angular frequency
   
 $$ 
-\(\omega = 2\pi f\) 
+\omega = 2\pi f\
 $$ 
 
 - speed of light
   
 $$
-\(c = \tfrac{E_0}{B_0} = \lambda f\)
+\c = \tfrac{E_0}{B_0} = \lambda f\
 $$  
 
 **Key properties:**  
