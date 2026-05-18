@@ -151,11 +151,10 @@ Ensure all components listed below are included in your submission for the Sprin
 - ✅ **Measured Oscillation Period** using the simulation
 - ✅ **Analytical Comparison**:
   - Use the formula:  
-    $$
-     
+    $$ 
     T = 2\pi \sqrt{\frac{m}{k}}
-  
     $$
+
 - ✅ **Energy Conservation Analysis**:
   - Show constancy of total energy over time
   - Optionally compute and report relative error:  
