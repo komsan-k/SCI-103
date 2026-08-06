@@ -57,16 +57,16 @@ https://www.coursera.org/programs/artificial-intelligence-and-system-eng-65etz/l
 
 ## Grading Scale (Approximately)
 
-| Grade | Score |
-|------|-------|
-| A | > 90 |
-| B+ | 80 – 89 |
-| B | 70 – 79 |
-| C+ | 65 – 69 |
-| C | 60 – 64 |
-| D+ | 55 – 59 |
-| D | 50 – 54 |
-| E | < 50 |
+| **Grade** | **Score Range** | **Description** |
+| :-------- | :-------------- | :-------------- |
+| **A**     | 90 – 100        | Excellent       |
+| **B+**    | 85 – 89      | Very Good       |
+| **B**     | 80 – 84      | Good            |
+| **C+**    | 70 – 79      | Fairly Good     |
+| **C**     | 60 – 69      | Fair            |
+| **D+**    | 55 – 59      | Passable        |
+| **D**     | 50 – 54     | Poor (Pass)     |
+| **E**     | Below 50        | Fail            |
 
 ---
 
