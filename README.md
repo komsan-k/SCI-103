@@ -4,12 +4,8 @@ This is the second half of a two-semester calculus-based introductory physics se
 
 
 ## Course Overview
-SCI-103 Physics I is a calculus-based introductory course for engineering students covering the fundamental principles of waves, electricity, and magnetism.
 
-The course begins with wave phenomena, including traveling and standing waves, superposition, beats, reflection, and interference. It then introduces electricity through electrostatics, electric fields, Gauss' law, electric potential, and basic DC circuits. The final section explores magnetism, including magnetic fields, magnetic forces, electromagnetic induction, and electromagnetic waves.
-
-Emphasis is placed on applying physics concepts and calculus-based problem-solving to engineering applications. By the end of the course, students will have a solid foundation for advanced studies in electrical, electronic, computer, and communication engineering.
----
+SCI-103 Physics I is a calculus-based course for engineering students covering the fundamentals of **waves, electricity, and magnetism**. Topics include wave behavior, electrostatics, electric fields, Gauss' law, electric potential, basic DC circuits, magnetic fields, electromagnetic induction, and electromagnetic waves. The course emphasizes calculus-based problem-solving and engineering applications, providing a strong foundation for advanced studies in engineering.
 
 
 
@@ -51,9 +47,9 @@ https://www.coursera.org/programs/artificial-intelligence-and-system-eng-65etz/l
 
 | Component | Percentage |
 |------------|------------|
-| Laboratory Exercises | 40% |
-| Coursera Certificates | 50% |
-| Final Quiz | 10% |
+| Laboratory Exercises | 30%  (3% each)|
+| Coursera Certificates | 55% (15% + 20% + 20%)|
+| Final Quiz | 15% |
 
 > **Note:** Students are required to submit valid Coursera completion certificates and complete all laboratory activities.
 
