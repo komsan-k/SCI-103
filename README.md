@@ -76,6 +76,20 @@ https://www.coursera.org/programs/artificial-intelligence-and-system-eng-65etz/l
 
 ---
 
+## VPython Resources
+
+- **VPython (Official Website)**  
+  https://vpython.org/
+
+- **GlowScript VPython (Browser-Based IDE)**  
+  https://www.glowscript.org/
+
+- **Trinket GlowScript (Online Editor)**  
+  https://trinket.io/glowscript
+
+- **Visual Python (VPython) Tutorial (PDF)**  
+  https://engcourses-uofa.ca/wp-content/uploads/Visual-Python-VPython-ver-2.pdf
+---
 ## Instructor
 
 **Dr. Komsan Kanjanasit**  
