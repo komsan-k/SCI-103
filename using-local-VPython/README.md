@@ -121,8 +121,4 @@ This example simulates projectile motion and displays its trajectory in 3D.
 | **Google Colab** | Medium | ⭐⭐☆☆☆ | Limited VPython support |
 | **GlowScript VPython** | Very Easy | ⭐⭐⭐⭐⭐ | Best for teaching without installation |
 
----
 
-# Recommendation for SCI-103 Physics I
-
-For developing and demonstrating interactive physics simulations, **Jupyter Notebook** is the recommended environment because it provides reliable 3D visualization and smooth animations. If students need to run simulations without installing software, **GlowScript VPython** is an excellent browser-based alternative.
