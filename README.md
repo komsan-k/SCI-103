@@ -48,7 +48,7 @@ https://www.coursera.org/programs/artificial-intelligence-and-system-eng-65etz/l
 | Component | Percentage |
 |------------|------------|
 | Laboratory Exercises | 30%  (3% each)|
-| Coursera Certificates | 60% (15% + 20% + 20%)|
+| Coursera Certificates | 60% (20% + 20% + 20%)|
 | Final Quiz | 10% |
 
 > **Note:** Students are required to submit valid Coursera completion certificates and complete all laboratory activities.
