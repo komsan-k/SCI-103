@@ -32,12 +32,12 @@ https://www.coursera.org/programs/artificial-intelligence-and-system-eng-65etz/l
 | 1 | Introduction to VPython | https://github.com/komsan-k/SCI-103/tree/main/lab/lab-01 |
 | 2 | Vector Modelling | https://github.com/komsan-k/SCI-103/tree/main/lab/lab-02 |
 | 3 | Physics Simulation of a Bouncing Ball | https://github.com/komsan-k/SCI-103/tree/main/lab/lab-03 |
-| 4 | Physics Simulation of 1-D Free Fall | https://github.com/komsan-k/SCI-103/tree/main/lab/lab-04-free-fall |
-| 5 | Uniform Circular Motion | https://github.com/komsan-k/SCI-103/tree/main/lab/lab-7-uniform-circular%20motion |
-| 6 | 1D Spring-Mass System | https://github.com/komsan-k/SCI-103/tree/main/lab/lab-05-Spring-Mass-System |
-| 7 | Simple Harmonic Motion (SHM) | https://github.com/komsan-k/SCI-103/tree/main/lab/lab-06-SHM |
-| 8 | Traveling Wave on a String | https://github.com/komsan-k/SCI-103/tree/main/lab/lab-08-traveling-wave |
-| 9 | Reflection and Interference of Waves | https://github.com/komsan-k/SCI-103/tree/main/lab/lab-10-reflection-interference |
+| 4 | 1D Spring-Mass System | https://github.com/komsan-k/SCI-103/tree/main/lab/lab-05-Spring-Mass-System |
+| 5 | Simple Harmonic Motion (SHM) | https://github.com/komsan-k/SCI-103/tree/main/lab/lab-06-SHM |
+| 6 | Traveling Wave on a String | https://github.com/komsan-k/SCI-103/tree/main/lab/lab-08-traveling-wave |
+| 7 | Reflection and Interference of Waves | https://github.com/komsan-k/SCI-103/tree/main/lab/lab-10-reflection-interference |
+| 8 | Visualization of Electric Fields | https://github.com/komsan-k/SCI-103/tree/main/lab/lab-11-electric-field |
+| 9 | Visualization of Magnetic Fields | https://github.com/komsan-k/SCI-103/tree/main/lab/lab-12-magnetic-field |
 | 10 | Electromagnetic (EM) Fields | https://github.com/komsan-k/SCI-103/tree/main/lab/lab-13-EM-field |
 
 
