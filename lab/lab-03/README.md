@@ -86,7 +86,7 @@ while True:
     ball.pos = ball.pos + ball.velocity*dt
     
     if ball.pos.y <= ball.radius:
-        ball.velocity.y = -ball.velocity.y
+        ball.velocity.y = abs(ball.velocity.y)
 ```
 
 ---
