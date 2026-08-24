@@ -3,9 +3,9 @@
 ## 🎯 Objectives
 - To visualize a **traveling sinusoidal wave** on a string using VPython.  
 - To understand the mathematical form of a traveling wave:
-   $$
+   \[
   y(x,t) = A \sin(kx - \omega t)
-  $$
+  \]
 - To observe how **wave speed, frequency, and wavelength** affect the motion of the string.  
 - To develop computational skills by implementing a physics concept in Python.  
 
