@@ -14,9 +14,9 @@
 ## 📖 Background Theory
 
 A **traveling wave** on a string can be described as:
-$$ 
+\[ 
 y(x,t) = A \sin(kx - \omega t) 
-$$
+\]
 where:  
 - A = amplitude (maximum displacement),  
 - k = 2π/λ = wave number,  
