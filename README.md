@@ -13,13 +13,13 @@ SCI-103 Physics I is a calculus-based course for engineering students covering t
 
 Students are required to complete the following online learning modules:
 
-1. Physics 101 - Forces and Kinematics  
+1. Physics 101 - Forces and Kinematics  (due 1 SEP 2026)  
 https://www.coursera.org/programs/artificial-intelligence-and-system-eng-65etz/learn/physics-101-forces-kinematics?source=search#modules
 
-2. Physics 102 - Electric Charges and Fields  
+2. Physics 102 - Electric Charges and Fields  (due 15 SEP 2026)
 https://www.coursera.org/programs/artificial-intelligence-and-system-eng-65etz/learn/physics-102-electric-charges-fields?source=search#modules
 
-3. Physics of Oscillators and Waves
+3. Physics of Oscillators and Waves (29 SEP 2026) 
 https://www.coursera.org/programs/artificial-intelligence-and-system-eng-65etz/learn/oscillators-waves?source=search#modules
 
 **Late Submission Policy**
