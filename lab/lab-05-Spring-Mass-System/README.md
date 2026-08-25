@@ -161,8 +161,7 @@ Ensure all components listed below are included in your submission for the Sprin
    
     $$
 \frac{\Delta E}{E}
-=
-\frac{E_{\text{final}} - E_{\text{initial}}}
+=\frac{E_{\text{final}} - E_{\text{initial}}}
 {E_{\text{initial}}}
 $$
 ---
