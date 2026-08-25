@@ -96,7 +96,7 @@ https://www.coursera.org/programs/artificial-intelligence-and-system-eng-65etz/l
 ---
 ## Instructor
 
-**Dr. Komsan Kanjanasit**  
+**Komsan Kanjanasit**, PhD  
 College of Computing  
 Prince of Songkla University, Phuket Campus
 
