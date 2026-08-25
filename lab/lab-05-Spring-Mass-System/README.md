@@ -152,9 +152,10 @@ Ensure all components listed below are included in your submission for the Sprin
 - ✅ **Analytical Comparison**:
   - Use the formula:
      
-    $$ 
-    T = 2\pi \sqrt{\frac{m}{k}}
-    $$
+$$
+T = 2\pi \sqrt{\frac{m}{k}}
+$$
+
 
 - ✅ **Energy Conservation Analysis**:
   - Show constancy of total energy over time
