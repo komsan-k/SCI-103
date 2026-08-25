@@ -60,7 +60,7 @@ This equation describes a **sinusoidal disturbance** that moves without changing
 ```python
 from vpython import *  # provides vector, curve, sin, cos, pi, rate, color
 
-scene.title = "Traveling Wave on a String (no NumPy)"
+scene.title = "Traveling Wave on a String"
 scene.background = color.white
 
 # Parameters
