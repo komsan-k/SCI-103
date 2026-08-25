@@ -108,7 +108,7 @@ while True:
 
 ## 📝 Analysis
 1. Measure the wave speed from the simulation and compare it with:
-   \[ v = \frac{\omega}{k} \]
+  v = ω/k  
 2. Verify that doubling the frequency doubles the wave speed if wavelength is held constant.  
 3. Investigate what happens if both λ and f are changed while keeping v constant.  
 
