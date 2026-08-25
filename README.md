@@ -94,7 +94,7 @@ https://www.coursera.org/programs/artificial-intelligence-and-system-eng-65etz/l
 - **Visual Python (VPython) Tutorial (PDF)**  
   https://engcourses-uofa.ca/wp-content/uploads/Visual-Python-VPython-ver-2.pdf
 ---
-## Instructor
+## Lecturer 
 
 **Komsan Kanjanasit**  
 College of Computing  
