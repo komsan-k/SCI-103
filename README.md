@@ -19,7 +19,7 @@ https://www.coursera.org/programs/artificial-intelligence-and-system-eng-65etz/l
 2. Physics 102 - Electric Charges and Fields  (due 15 SEP 2026)
 https://www.coursera.org/programs/artificial-intelligence-and-system-eng-65etz/learn/physics-102-electric-charges-fields?source=search#modules
 
-3. Physics of Oscillators and Waves (29 SEP 2026) 
+4. Physics of Oscillators and Waves (due 29 SEP 2026)
 https://www.coursera.org/programs/artificial-intelligence-and-system-eng-65etz/learn/oscillators-waves?source=search#modules
 
 **Late Submission Policy**
