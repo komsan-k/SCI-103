@@ -150,7 +150,8 @@ Ensure all components listed below are included in your submission for the Sprin
 ## 📊 Numerical Verification
 - ✅ **Measured Oscillation Period** using the simulation
 - ✅ **Analytical Comparison**:
-  - Use the formula:  
+  - Use the formula:
+  -  
     $$ 
     T = 2\pi \sqrt{\frac{m}{k}}
     $$
