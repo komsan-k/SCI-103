@@ -22,7 +22,11 @@ https://www.coursera.org/programs/artificial-intelligence-and-system-eng-65etz/l
 3. Physics of Oscillators and Waves
 https://www.coursera.org/programs/artificial-intelligence-and-system-eng-65etz/learn/oscillators-waves?source=search#modules
 
+**Late Submission Policy**
 
+- Late submissions are allowed but will receive a **mark reduction of 1 point per day** after the deadline.
+- The penalty is cumulative and applies until the assignment reaches zero.
+- The submission time recorded in the LMS will be used as the official timestamp.
 ---
 
 ## VPython Laboratory Modules
