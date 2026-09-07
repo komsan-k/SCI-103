@@ -12,17 +12,30 @@
 
 When a wave traveling along a string reaches a fixed boundary, it reflects with an **inverted phase**. The reflected wave combines with the incident wave, leading to **interference**.  
 
-Incident wave:  
-$$ y_i(x,t) = A \sin(kx - \omega t) $$  
+**Incident wave:**
 
-Reflected wave:  
-\[ y_r(x,t) = -A \sin(kx + \omega t) \]  
+$$
+y_i(x,t) = A \sin(kx - \omega t)
+$$
 
-By superposition:  
-\[ y(x,t) = y_i + y_r = A \sin(kx - \omega t) - A \sin(kx + \omega t) \]  
+**Reflected wave:**
 
-This simplifies to a **standing wave equation**:  
-\[ y(x,t) = 2A \sin(kx) \cos(\omega t) \]  
+$$
+y_r(x,t) = -A \sin(kx + \omega t)
+$$
+
+**By superposition:**
+
+$$
+y(x,t) = y_i + y_r
+= A \sin(kx - \omega t) - A \sin(kx + \omega t)
+$$
+
+This simplifies to a **standing wave equation**:
+
+$$
+y(x,t) = 2A \sin(kx) \cos(\omega t)
+$$ 
 
 Key points:  
 - **Nodes:** points where destructive interference occurs (y=0).  
