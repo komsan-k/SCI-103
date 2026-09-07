@@ -120,18 +120,13 @@ while True:
 
 
 $$
-y_i(x,t) = A \sin(kx - \omega t)
-$$
-
-1. Verify that the simulation satisfies:
-
-   $$
    y(x,t) = 2A \sin(kx)\cos(\omega t)
    $$
 
-   $$
-y_i(x,t) = A \sin(kx - \omega t)
-$$
+
+1. Verify that the simulation satisfies:
+
+   
    
 
 3. Locate the nodes in the simulation and compare them with:
