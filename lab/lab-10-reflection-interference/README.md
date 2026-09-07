@@ -118,6 +118,11 @@ while True:
 
 ## 📝 Analysis
 
+
+$$
+y_i(x,t) = A \sin(kx - \omega t)
+$$
+
 1. Verify that the simulation satisfies:
 
    $$
