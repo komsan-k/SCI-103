@@ -135,7 +135,7 @@ while True:
    x = \frac{\lambda}{4},\ \frac{3\lambda}{4},\ \frac{5\lambda}{4},\ldots
    $$
 
-4. Measure the wave speed and check its consistency with:
+
 
    $$
    v = \frac{\omega}{k}
