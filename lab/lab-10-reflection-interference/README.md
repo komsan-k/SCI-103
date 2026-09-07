@@ -119,33 +119,27 @@ while True:
 ## 📝 Analysis
 1. Verify that the simulation satisfies:
 
+   $$
+   y(x,t) = 2A \sin(kx)\cos(\omega t)
+   $$
+
+2. Locate the nodes in the simulation and compare them with:
 
    $$
-    y(x,t) = 2A \sin(kx) \cos(\omega t)
+   x = n\frac{\lambda}{2}, \qquad n = 0,1,2,\ldots
    $$
 
-
-3. Locate nodes in the simulation and compare with:
-
+3. Locate the antinodes in the simulation and compare them with:
 
    $$
-    x = n\frac{\lambda}{2}, \qquad n = 0,1,2,\ldots
+   x = \frac{\lambda}{4},\ \frac{3\lambda}{4},\ \frac{5\lambda}{4},\ldots
    $$
-   
 
-5. Locate antinodes and compare with:
-
-   $$
-    x = \frac{\lambda}{4}, \frac{3\lambda}{4}, \frac{5\lambda}{4}, \ldots
-   $$
-   
-
-7. Measure wave speed and check consistency with:
+4. Measure the wave speed and check its consistency with:
 
    $$
-    v = \frac{\omega}{k}
+   v = \frac{\omega}{k}
    $$
-   
 
 ---
 
