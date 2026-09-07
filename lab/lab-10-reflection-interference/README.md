@@ -120,9 +120,9 @@ while True:
 
 1. Verify that the simulation satisfies:
 
-   $$
+   \[
    y(x,t) = 2A \sin(kx)\cos(\omega t)
-   $$
+   \]
 
 2. Locate the nodes in the simulation and compare them with:
 
