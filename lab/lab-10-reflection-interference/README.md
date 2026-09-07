@@ -13,7 +13,7 @@
 When a wave traveling along a string reaches a fixed boundary, it reflects with an **inverted phase**. The reflected wave combines with the incident wave, leading to **interference**.  
 
 Incident wave:  
-\[ y_i(x,t) = A \sin(kx - \omega t) \]  
+$$ y_i(x,t) = A \sin(kx - \omega t) $$  
 
 Reflected wave:  
 \[ y_r(x,t) = -A \sin(kx + \omega t) \]  
