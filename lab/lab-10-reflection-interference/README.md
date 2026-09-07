@@ -129,7 +129,7 @@ $$
    
    
 
-3. Locate the nodes in the simulation and compare them with:
+3. **Locate the nodes in the simulation and compare them with:**
 
    $$
    x = n\frac{\lambda}{2}, \qquad n = 0,1,2,\ldots
